@@ -122,6 +122,19 @@ main > section{
     border-radius: 8px;
     margin-bottom: 20px;
 }
+#experiance-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -92px;
+    margin-top: -100px;
+    border-radius: 8px;
+    
+}
+#experiance-years{
+    font-size: 4rem;
+    font-weight: 700;
+}
 /*facts*/
 .facts-title{
     font-weight: 700;
@@ -192,13 +205,20 @@ main > section{
 }
 /*Responsive Media Query*/
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .teams, .features{
         flex-direction: column;
+    }
+    .features-archi img{
+        width: 100%;
     }
     .team-img-cont, .facts-container{
         grid-template-columns: repeat(1, 1fr);
     }
     .our-features{
+        margin-left: 20px;
+    }
+    #experiance-badge{
+        margin-top: 20px;
         margin-left: 20px;
     }
     
